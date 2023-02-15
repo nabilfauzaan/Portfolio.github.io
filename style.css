@@ -76,7 +76,7 @@ section::before {
 .work-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "work-1 work-2" "work-3 work-3";
+    grid-template-areas: "works-1 works-2" "works-3 works-3";
     gap: 16px;
 }
 .work-img img {
@@ -100,22 +100,22 @@ section::before {
     font-weight: 500;
     font-size: 24px;
 }
-#work-1 {
-    grid-area: work-1;
+#works-1 {
+    grid-area: works-1;
 }
-#work-1:hover::after {
+#works-1:hover::after {
     content: 'UI/UX Design';
 }
-#work-2 {
-    grid-area: work-2;
+#works-2 {
+    grid-area: works-2;
 }
-#work-2:hover::after {
+#works-2:hover::after {
     content: 'UI/UX Design';
 }
-#work-3 {
-    grid-area: work-3;
+#works-3 {
+    grid-area: works-3;
 }
-#work-3:hover::after {
+#works-3:hover::after {
     content: 'Web Project';
 }
 
