@@ -1,3 +1,4 @@
+/* section */
 section{
     padding-top: 128px;
     position: relative;
@@ -14,6 +15,7 @@ section::before {
     left: -30px;
 }
 
+/* button */
 .btn.button {
     border: 3px solid black;
     border-radius: 24px;
@@ -24,11 +26,13 @@ section::before {
     color: white;
 }
 
+/* navbar */
 .navbar {
     background-color: white;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
+/* home */
 .home h1 {
     font-size: 72px;
 }
@@ -45,11 +49,11 @@ section::before {
     width: 70%;
     border-radius: 50%;
 }
-
 #arrow {
     animation: 2s upDown infinite;
 }
 
+/* about */
 .about::before {
     content: 'About';
 }
@@ -65,6 +69,7 @@ section::before {
     display: none;
 }
 
+/* work */
 .work::before {
     content: 'Work';
 }
@@ -99,13 +104,13 @@ section::before {
     grid-area: work-1;
 }
 #work-1:hover::after {
-    content: 'Web Project';
+    content: 'UI/UX Design';
 }
 #work-2 {
     grid-area: work-2;
 }
 #work-2:hover::after {
-    content: 'Web Project';
+    content: 'UI/UX Design';
 }
 #work-3 {
     grid-area: work-3;
@@ -114,6 +119,7 @@ section::before {
     content: 'Web Project';
 }
 
+/* contact */
 .contact {
     padding: 128px;
 }
@@ -125,9 +131,11 @@ section::before {
     padding: 64px 32px;
 }
 
+/* form */
 .form-label {
     font-weight: 700;
 }
+
 
 @media only screen and (max-width: 768px) {
     .home img {
@@ -141,6 +149,7 @@ section::before {
         font-size: 64px;
     }
 }
+
 
 @keyframes upDown {
     0% {
