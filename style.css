@@ -70,7 +70,7 @@ section::before {
 }
 
 /* work */
-.work::before {
+/* .work::before {
     content: 'Work';
 }
 .work-img {
@@ -117,7 +117,7 @@ section::before {
 }
 #works-3:hover::after {
     content: 'Web Project';
-}
+} */
 
 /* contact */
 .contact {
